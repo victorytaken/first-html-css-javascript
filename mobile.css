@@ -1,0 +1,163 @@
+@media only screen and (max-width: 900px) {
+  /* navbar section */
+  body {
+    font-size: 15px;
+  }
+
+  .items2 {
+    display: none;
+  }
+
+  .items3 {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .home1left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  }
+
+  h1.heading {
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  p.heading {
+    text-align: center;
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  body {
+    word-spacing: 5px;
+  }
+  .container {
+    margin-top: 0px;
+  }
+  div h2 {
+    text-align: center;
+  }
+
+  .para {
+    text-align: center;
+    margin-bottom: 2rem;
+    max-width: 100%;
+  }
+
+  .home2right {
+    padding: 0vw;
+    width: 100%;
+    padding-left: 2vw;
+  }
+  .home2left {
+    padding: 2vw;
+  }
+  .illustration {
+    scale: 66%;
+    transition: 1s;
+  }
+
+  div.buttonh3 {
+    padding: 0px 0px;
+    border: none;
+    background-color: hsl(13, 100%, 96%);
+  }
+
+  .list1 {
+    margin-left: 8px;
+  }
+
+  h3.heading2 {
+    margin-left: 8px;
+  }
+
+  p.heading2 {
+    text-align: start;
+    margin-top: 10px;
+    margin-right: 3vw;
+    margin-left: 0px;
+    max-width: fit-content;
+  }
+
+  div.last {
+    margin-bottom: 2vh;
+  }
+
+  .background_three {
+    display: none;
+  }
+  .background_mobile {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  input {
+    width: 60vw;
+    text-align: start;
+    padding-left: 5vw;
+  }
+  .placeholder {
+    margin-top: 4vh;
+  }
+
+  .heading_1 h2 {
+    width: auto;
+  }
+
+  footer {
+    flex-direction: column-reverse;
+    height: auto;
+    row-gap: 2vh;
+  }
+
+  .adjusticons {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .smallicons {
+    width: 100vw;
+  }
+
+  #lastbutton {
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+
+  .manageicon {
+    margin-top: 2vh;
+  }
+  div h2 {
+    max-width: 100%;
+  }
+
+  #copyright {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-bottom: 5px;
+  }
+  .items4 {
+    display: none;
+  }
+  .footerlist {
+    width: 100%;
+  }
+  .home2 {
+    flex-direction: column;
+    align-content: center;
+  }
+  .list1 {
+    margin-left: 0px;
+  }
+}
